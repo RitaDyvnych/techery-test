@@ -3,7 +3,7 @@
   background: linear-gradient(180deg, #dadada 0%, #e2e2e2 100%);
   padding: 50px 80px;
   display: flex;
-  align-items: start;
+  align-items: flex-start;
   justify-content: space-between;
 }
 .footer_wrap {

@@ -11,32 +11,16 @@ export default function Header() {
           </svg>
           <div className={s.header_box}>
             <nav className={s.header_nav}>
-              <a
-                href="javascript:void(0);"
-                rel="noreferrer"
-                className={s.header_link}
-              >
+              <a href="/" className={s.header_link}>
                 shop
               </a>
-              <a
-                href="javascript:void(0);"
-                rel="noreferrer"
-                className={s.header_link}
-              >
+              <a href="/" className={s.header_link}>
                 our company
               </a>
-              <a
-                href="javascript:void(0);"
-                rel="noreferrer"
-                className={s.header_link}
-              >
+              <a href="/" className={s.header_link}>
                 news & blog
               </a>
-              <a
-                href="javascript:void(0);"
-                rel="noreferrer"
-                className={`${s.header_link} ${s.header_link_join}`}
-              >
+              <a href="/" className={`${s.header_link} ${s.header_link_join}`}>
                 join us
               </a>
             </nav>

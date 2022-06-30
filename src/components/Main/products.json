@@ -1,0 +1,37 @@
+[
+  {
+    "id": "XWaQXcbk0",
+    "name": "PAPUA NEW GUINEA",
+    "price": "$12.99",
+    "image": "https://cdn.shopify.com/s/files/1/0462/8021/2633/products/papua-new-guinea-sigri-coffee-1lb-whole-bean_1296x.jpg?v=1627934214",
+    "descr": "Papua New Guinea Sigri Medium Roast Single Origin coffee is quickly becoming one of our customers' favorites. The finest coffee in New Guinea comes from the Sigri estate, in the Waghi Valley of Papua New Guinea, where climate, soil and elevation combine to create ideal growing conditions."
+  },
+  { 
+    "id": "pkXzyRp1P",
+    "name": "BALI BLUE MOON",
+    "price": "$16.95",
+    "image": "https://cdn.shopify.com/s/files/1/0462/8021/2633/products/Bali-Blue-Moon-Dark-Roast-Coffee-Coffee-Bean-_-Tea-Leaf-Store-1619088898_1296x.jpg?v=1627923849",
+    "descr": "Bali Blue Moon Dark Roast single origin Coffee has a fragrant toffee aroma with flavors of walnuts and semi-sweet chocolate, with a crisp black cherry finish."
+  },
+  {
+    "id": "QMom9q4Ku",
+    "name": "BRAZIL CERRADO",
+    "price": "$15.95",
+    "image": "https://cdn.shopify.com/s/files/1/0462/8021/2633/products/brazil-cerrado-coffee-1lb-whole-bean_1296x.jpg?v=1619621463",
+    "descr": "Our Brazil Cerrado light roast single origin coffee is grown in the hot, flat savannahs of Minas Gerais. Labeled “Specialty Grade,” Brazil Cerrado is dry processed for a cup of coffee that displays terrific body, and a nutty, sweet taste that can only be found in the best Brazilian coffees."
+  },
+  {
+    "id": "k2k0UrjZG",
+    "name": "DECAF ESPRESSO",
+    "price": "$18.95",
+    "image": "https://cdn.shopify.com/s/files/1/0462/8021/2633/products/decaf-espresso-roast-coffee-1lb-whole-bean_1296x.jpg?v=1619621436",
+    "descr": "When you want the same great taste of our popular Espresso Roast Coffee, get the decaffeinated version here. To create our Decaf Espresso Roast Blend, we roast four select origin coffees to perfection, then combine them to create the perfect base for our espresso drinks."
+  },
+  {
+    "id": "j2k8U1jZd",
+    "name": "COSTA RICA",
+    "price": "$14.95",
+    "image": "https://cdn.shopify.com/s/files/1/0462/8021/2633/products/costa-rica-la-cascada-tarrazu-coffee-1lb-whole-bean_1296x.jpg?v=1619621323",
+    "descr": "Prized for bright, crisp taste, Costa Rica La Cascada comes from the high altitude farms in the Tarrazu region where rich soils produce some of the best coffees in the land. Costa Rica La Cascada Tarrazu is medium-bodied with a fragrant aroma and bright crisp flavor. This coffee is slightly more complex than La Minita, and a bit more robust."
+  }
+]

@@ -41,7 +41,7 @@
 }
 .products {
   padding-top: 50px;
-  padding-bottom: 50px;
+  padding-bottom: 40px;
   background-color: rgba(232, 223, 207, 0.5);
   border: 1px solid rgba(0, 0, 0, 0.3);
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
@@ -54,6 +54,89 @@
   color: var(--text-color);
   margin-bottom: 50px;
 }
+.slider {
+  width: 1210px;
+  margin-left: auto;
+  margin-right: auto;
+}
+.arrowLeft {
+  position: absolute;
+  top: 50%;
+  left: -80px;
+  cursor: pointer;
+}
+.arrowRight {
+  position: absolute;
+  top: 50%;
+  left: 1216px;
+  cursor: pointer;
+}
+.arrow_icon {
+  width: 56px;
+  height: 56px;
+}
+.product_box {
+  display: flex !important;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  width: 385px !important;
+  height: 820px;
+  background: var(--white-color);
+  border: 1px solid #e8dfcf;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+  border-radius: 10px;
+  padding: 50px 32px 36px 32px;
+  margin-bottom: 10px;
+}
+.product_name {
+  font-weight: 300;
+  font-size: 28px;
+  line-height: 1.18;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: var(--text-color);
+  margin-bottom: 34px;
+}
+.product_price {
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.01em;
+  color: var(--text-color);
+  margin-bottom: 12px;
+}
+.product_img {
+  object-fit: cover;
+  margin-bottom: 12px;
+  border: 1px solid #e8dfcf;
+  box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.1);
+}
+.product_descr {
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 1.5;
+  text-align: center;
+  letter-spacing: 0.005em;
+  color: var(--text-color);
+  margin-bottom: 4px;
+}
+.product_button {
+  cursor: pointer;
+  padding: 15px 45px;
+  background: #87bc49;
+  border: none;
+  border-radius: 30px;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  text-align: center;
+  letter-spacing: 0.0125em;
+  text-transform: uppercase;
+  color: var(--white-color);
+}
+
 .forClient {
   padding-top: 100px;
   padding-bottom: 100px;
