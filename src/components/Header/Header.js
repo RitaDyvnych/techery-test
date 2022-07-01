@@ -8,7 +8,6 @@ export default function Header() {
   const [activeMenu, setActiveMenu] = useState(false);
   function onMenuClick() {
     setActiveMenu(!activeMenu);
-    console.log(activeMenu);
   }
   return (
     <header className={s.header}>
