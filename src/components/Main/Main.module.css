@@ -1,5 +1,5 @@
 .main {
-  width: 1620px;
+  width: 100%;
   background: #f5f5f5;
   text-align: center;
 }
@@ -9,7 +9,7 @@
 }
 .hero_title {
   font-weight: 300;
-  font-size: 48px;
+  font-size: 32px;
   line-height: 1.17;
   letter-spacing: 0.01em;
   color: var(--green-color);
@@ -17,7 +17,7 @@
 .hero_order {
   margin-top: 16px;
   font-weight: 300;
-  font-size: 28px;
+  font-size: 22px;
   line-height: 1.18;
   text-align: center;
   letter-spacing: 0.01em;
@@ -34,7 +34,8 @@
 }
 .hero_image {
   margin-top: 54px;
-  width: 1198px;
+  width: 320px;
+  min-width: 320px;
   height: 398px;
   object-fit: cover;
   object-position: 50% 37%;
@@ -55,32 +56,32 @@
   margin-bottom: 50px;
 }
 .slider {
-  width: 1210px;
+  width: 300px;
   margin-left: auto;
   margin-right: auto;
 }
 .arrowLeft {
   position: absolute;
   top: 50%;
-  left: -80px;
+  left: -33px;
   cursor: pointer;
 }
 .arrowRight {
   position: absolute;
   top: 50%;
-  left: 1216px;
+  left: 304px;
   cursor: pointer;
 }
 .arrow_icon {
-  width: 56px;
-  height: 56px;
+  width: 30px;
+  height: 30px;
 }
 .product_box {
   display: flex !important;
   flex-direction: column;
   justify-content: space-between;
   align-items: center;
-  width: 385px !important;
+  width: 300px !important;
   height: 820px;
   background: var(--white-color);
   border: 1px solid #e8dfcf;
@@ -108,6 +109,8 @@
   margin-bottom: 12px;
 }
 .product_img {
+  width: 280px;
+  height: 280px;
   object-fit: cover;
   margin-bottom: 12px;
   border: 1px solid #e8dfcf;
@@ -138,8 +141,7 @@
 }
 
 .forClient {
-  padding-top: 100px;
-  padding-bottom: 100px;
+  padding: 50px 20px;
 }
 .forClient_title {
   font-weight: 300;
@@ -164,4 +166,62 @@
   letter-spacing: 0.005em;
   text-decoration-line: underline;
   color: var(--green-color);
+}
+
+@media screen and (min-width: 1024px) {
+  .hero_title {
+    font-size: 48px;
+  }
+  .hero_order {
+    font-size: 28px;
+  }
+  .hero_image {
+    min-width: 700px;
+  }
+  .forClient {
+    padding: 100px 0px;
+  }
+  .slider {
+    width: 825px;
+  }
+  .arrowLeft {
+    top: 50%;
+    left: -62px;
+  }
+  .arrowRight {
+    top: 50%;
+    left: 814px;
+  }
+  .arrow_icon {
+    width: 46px;
+    height: 46px;
+  }
+  .product_box {
+    width: 385px !important;
+    height: 820px;
+  }
+  .product_img {
+    width: 321px;
+    height: 321px;
+  }
+}
+@media screen and (min-width: 1620px) {
+  .hero_image {
+    min-width: 1198px;
+  }
+  .slider {
+    width: 1210px;
+  }
+  .arrowLeft {
+    top: 50%;
+    left: -80px;
+  }
+  .arrowRight {
+    top: 50%;
+    left: 1216px;
+  }
+  .arrow_icon {
+    width: 56px;
+    height: 56px;
+  }
 }

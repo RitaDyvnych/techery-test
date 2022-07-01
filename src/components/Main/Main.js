@@ -38,19 +38,13 @@ export default function Main() {
     prevArrow: <SamplePrevArrow />,
     responsive: [
       {
-        breakpoint: 1620,
-        settings: {
-          slidesToShow: 3,
-        },
-      },
-      {
-        breakpoint: 1024,
+        breakpoint: 1619,
         settings: {
           slidesToShow: 2,
         },
       },
       {
-        breakpoint: 600,
+        breakpoint: 1023,
         settings: {
           slidesToShow: 1,
         },
@@ -84,8 +78,6 @@ export default function Main() {
                     className={s.product_img}
                     src={product.image}
                     alt={product.title}
-                    width="321"
-                    height="321"
                   />
                   <p className={s.product_descr}>{product.descr}</p>
                   <a className={s.forClient_link} href="/">
