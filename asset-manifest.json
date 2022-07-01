@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/techery-test/static/css/main.f98edf53.css",
-    "main.js": "/techery-test/static/js/main.061c030a.js",
+    "main.css": "/techery-test/static/css/main.40e7a729.css",
+    "main.js": "/techery-test/static/js/main.1445bdf4.js",
     "static/media/hero.jpeg": "/techery-test/static/media/hero.5f7309cac6a5e101f9f1.jpeg",
     "static/media/sprite.svg": "/techery-test/static/media/sprite.bd41463f5b9c472f0a3c2384d393a942.svg",
     "static/media/slick.svg": "/techery-test/static/media/slick.2630a3e3eab21c607e21.svg",
@@ -9,11 +9,11 @@
     "static/media/slick.ttf": "/techery-test/static/media/slick.c94f7671dcc99dce43e2.ttf",
     "static/media/slick.woff": "/techery-test/static/media/slick.295183786cd8a1389865.woff",
     "index.html": "/techery-test/index.html",
-    "main.f98edf53.css.map": "/techery-test/static/css/main.f98edf53.css.map",
-    "main.061c030a.js.map": "/techery-test/static/js/main.061c030a.js.map"
+    "main.40e7a729.css.map": "/techery-test/static/css/main.40e7a729.css.map",
+    "main.1445bdf4.js.map": "/techery-test/static/js/main.1445bdf4.js.map"
   },
   "entrypoints": [
-    "static/css/main.f98edf53.css",
-    "static/js/main.061c030a.js"
+    "static/css/main.40e7a729.css",
+    "static/js/main.1445bdf4.js"
   ]
 }
